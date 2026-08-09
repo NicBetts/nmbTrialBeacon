@@ -1,0 +1,31 @@
+# Bundled clinical-trials corpus (multi‑GB). Built by nmbTrialBeaconDB; keep local only.
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+
+# Xcode / macOS
+.DS_Store
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Cursor / editor
+.cursor/
+*.swp
+*~
+
+# Secrets / local env
+.env
+.env.*
+*.pem

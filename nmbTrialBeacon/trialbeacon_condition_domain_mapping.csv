@@ -1,0 +1,51 @@
+domain,sf_symbol_primary,sf_symbol_fallback,domain_description,example_match_terms_pipe_delimited
+Oncology,ribbon,cross.case,Cancer and malignant neoplasms,cancer|carcinoma|sarcoma|lymphoma|leukaemia|leukemia|melanoma|tumour|tumor|neoplasm|myeloma|glioma
+Cardiology,heart,waveform.path.ecg,Heart disease and cardiac function,heart failure|cardiac|cardiomyopathy|arrhythmia|atrial fibrillation|myocardial|coronary
+Vascular,waveform.path.ecg,heart,"Arterial, venous and circulatory disease",vascular|artery|arterial|venous|vein|thrombosis|embolism|peripheral artery
+Neurology,brain.head.profile,cross.case,"Brain, spinal cord and nervous-system disorders",alzheimer|parkinson|epilepsy|seizure|stroke|multiple sclerosis|neuropathy|migraine|dementia|spinal cord
+Mental Health,brain,brain.head.profile,Psychiatric and behavioural health,depression|anxiety|schizophrenia|bipolar|psychiatric|mental health|ptsd|autism|adhd
+Respiratory,lungs,cross.case,Lung and breathing disorders,asthma|copd|pulmonary|respiratory|lung disease|bronchitis|sleep apnea|sleep apnoea
+Infectious Disease,microbe,cross.case,Infectious and communicable diseases,infection|infectious|hiv|aids|covid|influenza|malaria|tuberculosis|hepatitis|virus|bacterial
+Immunology,shield,cross.case,Immune-system disorders and immune response,immune|immunology|immunodeficiency|autoimmune|immune response
+Allergy,allergens,shield,Allergic and hypersensitivity conditions,allergy|allergic|anaphylaxis|hypersensitivity|rhinitis
+Haematology,drop,cross.case,Blood disorders,anaemia|anemia|haemophilia|hemophilia|blood disorder|thrombocytopenia|sickle cell|coagulation
+Endocrinology,gauge.with.dots.needle.50percent,cross.case,Hormonal and endocrine disorders,endocrine|thyroid|pituitary|adrenal|hormone|cushing|growth hormone
+Diabetes,drop.circle,drop,Diabetes and glucose regulation,diabetes|diabetic|glucose|insulin|glycaemic|glycemic
+Metabolic,scalemass,cross.case,Metabolic disorders,metabolic|metabolism|dyslipidaemia|dyslipidemia|hyperlipidaemia|hyperlipidemia
+Obesity & Weight,figure,scalemass,"Obesity, overweight and weight management",obesity|overweight|weight loss|weight management|bmi
+Gastroenterology,fork.knife,cross.case,Digestive-system disorders,gastrointestinal|crohn|colitis|ibd|ibs|stomach|bowel|intestinal|digestive
+Hepatology,cross.case,waveform.path.ecg,Liver and biliary disease,liver|hepatic|cirrhosis|fatty liver|nash|masld|biliary
+Nephrology,drop.triangle,drop,Kidney disorders,kidney|renal|nephrology|dialysis|nephritis
+Urology,figure.stand,cross.case,Urinary-system disorders,urology|urinary|bladder|prostate|incontinence
+Reproductive Health,person.2,cross.case,Fertility and reproductive health,fertility|infertility|reproductive|ivf|contraception
+Pregnancy & Maternal Health,figure.and.child.holdinghands,person.2,"Pregnancy, childbirth and maternal health",pregnancy|pregnant|maternal|postpartum|obstetric|childbirth
+Paediatrics,figure.child,person.2,Child and adolescent health,paediatric|pediatric|child|children|adolescent|infant|neonatal
+Ageing & Geriatrics,figure.walk,person.2,Ageing and older-adult health,ageing|aging|geriatric|older adult|elderly|frailty
+Dermatology,bandage,cross.case,"Skin, hair and nail disorders",skin|dermatology|psoriasis|eczema|acne|alopecia|dermatitis
+Ophthalmology,eye,cross.case,Eye and vision disorders,eye|vision|ophthalmology|retina|glaucoma|cataract|macular
+"Ear, Nose & Throat",ear,cross.case,ENT and hearing disorders,hearing|ear|tinnitus|sinus|nasal|throat|otolaryngology
+Oral & Dental,mouth,cross.case,Oral and dental health,dental|tooth|teeth|oral|periodontal|mouth
+Musculoskeletal,figure.walk.motion,figure.walk,"Muscle, bone and movement disorders",musculoskeletal|muscle|bone|joint|arthritis|osteoporosis|back pain
+Orthopaedics,figure.strengthtraining.traditional,figure.walk,Orthopaedic injury and treatment,orthopaedic|orthopedic|fracture|joint replacement|knee|hip|shoulder
+Rheumatology,figure.flexibility,figure.walk,Inflammatory joint and connective-tissue disorders,rheumatoid|lupus|rheumatology|scleroderma|ankylosing
+Pain,bolt.heart,bolt,Acute and chronic pain,pain|analgesia|neuropathic pain|chronic pain|fibromyalgia
+Genetics,dna,cross.case,Inherited and genetic disorders,genetic|genomic|hereditary|chromosomal|mutation|syndrome
+Rare Disease,sparkles,dna,Rare and orphan conditions,rare disease|orphan disease|ultra-rare
+Sleep,bed.double,moon.zzz,Sleep and circadian disorders,sleep|insomnia|circadian|narcolepsy|sleep apnea|sleep apnoea
+Nutrition,fork.knife,leaf,"Diet, nutrition and supplementation",nutrition|diet|food|supplement|malnutrition
+Exercise & Physical Activity,figure.run,figure.walk,Exercise and physical-activity studies,exercise|physical activity|fitness|training|walking|running
+Rehabilitation,figure.roll,figure.walk,"Physical, occupational and functional rehabilitation",rehabilitation|physical therapy|physiotherapy|occupational therapy|recovery
+Surgery,scissors,cross.case,Surgical procedures and perioperative care,surgery|surgical|operative|postoperative|perioperative
+Anaesthesia & Critical Care,waveform.path.ecg.rectangle,waveform.path.ecg,"Anaesthesia, intensive care and critical illness",anaesthesia|anesthesia|critical care|intensive care|icu|sedation
+Emergency Medicine,cross.case,exclamationmark.triangle,Emergency and acute care,emergency|acute care|trauma|resuscitation
+Diagnostic Imaging,camera.metering.matrix,camera,Radiology and medical imaging,imaging|radiology|mri|ct scan|ultrasound|pet scan|x-ray
+Medical Devices,stethoscope,cross.case,Medical-device and monitoring studies,medical device|device|implant|prosthesis|monitoring device
+Digital Health,waveform.path,stethoscope,"Digital therapeutics, telehealth and software-enabled care",digital health|telehealth|telemedicine|mobile app|wearable|remote monitoring
+Vaccines,syringe,cross.vial,Vaccination and immunisation studies,vaccine|vaccination|immunisation|immunization
+Cell & Gene Therapy,dna.badge.ellipsis,dna,"Cell, gene and genome-editing therapies",gene therapy|cell therapy|car-t|cart|crispr|genome editing|stem cell
+Transplantation,arrow.triangle.2.circlepath,cross.case,"Organ, tissue and cell transplantation",transplant|transplantation|graft|donor
+Substance Use,smoke,cross.case,"Alcohol, tobacco and substance-use disorders",substance use|addiction|alcohol|opioid|tobacco|smoking|cannabis
+Public Health,person.3,globe,"Population health, prevention and health services",public health|population health|prevention|screening|health services
+Environmental & Occupational Health,leaf,hammer,Environmental exposure and workplace health,environmental|occupational|workplace|pollution|exposure
+Healthy Volunteers,person.crop.circle.badge.checkmark,person.crop.circle,Studies primarily involving healthy participants,healthy volunteer|healthy participant|healthy subject|normal volunteer
+Other / Unclassified,cross.case,questionmark.circle,Fallback when no medical domain can be assigned confidently,
